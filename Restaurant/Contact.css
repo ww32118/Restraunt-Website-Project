@@ -1,0 +1,78 @@
+.tact {
+    background-image: url('Images/dessert.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+.tact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+.con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ff {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.ff form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .cm {
+    margin-bottom: 30px;
+    position: relative;
+
+  }
+
+ .cm input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    transition: 0.2s;
+  }
+
+ .cm label{
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+  }
+
+.submit-btn{
+  padding: 10px 0;
+  color: #fff;
+  outline: #fff;
+  background-color: #FF6700;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.9 ease;
+}
+
+.submit-btn:hover{
+  background: #fff;
+  color: #FF6700;
+  outline: #FF6700;
+  border: 1px solid #FF6700;
+}
